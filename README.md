@@ -1,45 +1,30 @@
-# Python: Getting Started
+# Web App Development for Data Visualization
 
-A barebones Django app, which can easily be deployed to Heroku.
+This repository contains the files that I used to develop an intereactive Web Application for Data Visualization.
 
-This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
+The link of my webapp: https://moryba-webapp.herokuapp.com/.
 
-## Running Locally
+## Languages used to develop the Web App:
 
-Make sure you have Python 3.7 [installed locally](http://install.python-guide.org). To push to Heroku, you'll need to install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli), as well as [Postgres](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup).
+- markup language -> HTML 
+- programming language -> PYTHON 
 
-```sh
-$ git clone https://github.com/heroku/python-getting-started.git
-$ cd python-getting-started
-
-$ python3 -m venv getting-started
-$ pip install -r requirements.txt
-
-$ createdb python_getting_started
-
-$ python manage.py migrate
-$ python manage.py collectstatic
-
-$ heroku local
+## Python Libraries used:
+```python
+ - Pandas
+ - Plotly
 ```
+## Web framework used:
+- Flask
+## Front-end framework used:
+- Bootstrap
+## Cloud Platform used for deployment: 
+- Heroku
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+## Additional information
+- Additional information about the project can be found [here.](https://towardsdatascience.com/how-i-developed-my-web-app-for-data-visualization-with-python-93555ad83c2d?source=friends_link&sk=7a5f72db46f702e54d2e90b272b16ac4) 
 
-## Deploying to Heroku
+## License
 
-```sh
-$ heroku create
-$ git push heroku main
+Copyright 2020  Papa Moryba Kouate
 
-$ heroku run python manage.py migrate
-$ heroku open
-```
-or
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-## Documentation
-
-For more information about using Python on Heroku, see these Dev Center articles:
-
-- [Python on Heroku](https://devcenter.heroku.com/categories/python)
