@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 import json, plotly
-from wrangling_scripts.wrangle_data import return_figures
+from wrangle_data import return_figures
 
 from .models import Greeting
 
