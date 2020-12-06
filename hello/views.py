@@ -14,7 +14,7 @@ def index(request):
     # return render(request, "index.html",ids=ids,figuresJSON=figuresJSON)
     
     fig =px.scatter(x=range(10), y=range(10))
-    fig.write_html("./templates/index.html")
+    fig.write_html("index.html")
     return render(request, "index.html")
 
 
