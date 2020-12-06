@@ -1,6 +1,11 @@
-django
+asgiref
+autopep8
+django==2.2.10
+pycodestyle
+pytz
+sqlparse
+Unipath
+dj-database-url
+python-decouple
 gunicorn
-django-heroku
-numpy
-pandas
-plotly
+whitenoise
